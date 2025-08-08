@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>잠죽자 시뮬레이터</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>💀 잠죽자 시뮬레이터</h1>
+  <div class="controls">
+    <label>현재 나이: <input type="number" id="currentAge" value="25"></label>
+    <label>수면 시간(하루): <input type="number" id="sleepHours" value="8"></label>
+    <label>사망 나이: <input type="range" id="deathAge" min="30" max="100" value="75">
+      <span id="deathAgeLabel">75</span>
+    </label>
+  </div>
+
+  <canvas id="sleepChart"></canvas>
+
+  <div class="counter">
+    <h2>☠ 죽어서 잘 시간</h2>
+    <p id="afterlifeSleep">계산 중...</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
