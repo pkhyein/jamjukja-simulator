@@ -1,0 +1,22 @@
+body {
+  font-family: 'Pretendard', sans-serif;
+  margin: 20px;
+  background: #fafafa;
+  color: #333;
+  text-align: center;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input[type=range] {
+  width: 200px;
+}
+.counter {
+  margin-top: 30px;
+  background: #fff3e0;
+  padding: 15px;
+  border-radius: 10px;
+}
